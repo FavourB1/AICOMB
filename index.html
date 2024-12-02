@@ -1,1 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music, Writing & Tech Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            color: #333;
+        }
+        header {
+            background-color: #1a1a1a;
+            color: #fff;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+        }
+        header h1 {
+            font-size: 24px;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #ff4c4c;
+        }
+        .hero {
+            margin-top: 80px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+        }
+        .hero img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .hero h2 {
+            font-size: 28px;
+            margin: 20px 0 10px;
+            color: #ff4c4c;
+        }
+        .hero p {
+            max-width: 600px;
+            line-height: 1.6;
+        }
+        section {
+            padding: 40px 20px;
+        }
+        .section-title {
+            font-size: 24px;
+            margin-bottom: 20px;
+            text-align: center;
+            color: #1a1a1a;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .card h3 {
+            margin-top: 0;
+            color: #ff4c4c;
+        }
+        footer {
+            background-color: #1a1a1a;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        footer p {
+            margin: 0;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Creative Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#music">Music</a></li>
+                <li><a href="#writing">Writing</a></li>
+                <li><a href="#tech">Tech</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <img src="/mnt/data/Designer%20(3).jpg" alt="Portfolio Hero">
+        <h2>Welcome to My World</h2>
+        <p>Explore my journey through music, creative writing, and technological innovations. Combining art and science to shape impactful stories and experiences.</p>
+    </div>
+
+    <section id="music">
+        <h2 class="section-title">Music</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Original Compositions</h3>
+                <p>Discover my latest tracks blending genres and creating unique soundscapes.</p>
+            </div>
+            <div class="card">
+                <h3>Music Production</h3>
+                <p>Check out my projects where I produce and mix for independent artists.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="writing">
+        <h2 class="section-title">Writing</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Creative Narratives</h3>
+                <p>Explore my short stories and essays inspired by life and imagination.</p>
+            </div>
+            <div class="card">
+                <h3>Technical Writing</h3>
+                <p>Insights and tutorials on tech tools, algorithms, and emerging trends.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="tech">
+        <h2 class="section-title">Tech</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>AI Projects</h3>
+                <p>Discover how I leverage AI for art and interactive storytelling.</p>
+            </div>
+            <div class="card">
+                <h3>UX Designs</h3>
+                <p>My approach to user experience design and creating seamless interfaces.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My Creative Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
 
