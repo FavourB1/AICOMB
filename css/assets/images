@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Textual AI Projects</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <style>
+        /* Quick CSS for cards */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+
+        header {
+            background: url('assets/images/Designer.jpg') no-repeat center center;
+            background-size: cover;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-shadow: 1px 1px 5px black;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #222;
+        }
+
+        .card-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            width: 300px;
+            overflow: hidden;
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .card-body {
+            padding: 15px;
+        }
+
+        .card-title {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+            color: #444;
+        }
+
+        .card-text {
+            font-size: 0.9rem;
+            margin-bottom: 15px;
+            color: #666;
+        }
+
+        .card a {
+            text-decoration: none;
+            color: #e74c3c;
+            font-weight: bold;
+            transition: color 0.2s;
+        }
+
+        .card a:hover {
+            color: #c0392b;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Textual AI Projects</h1>
+    </header>
+
+    <div class="container">
+        <h2 class="section-title">Explore Textual AI</h2>
+        <div class="card-container">
+            <!-- Card 1: Distant Reading -->
+            <div class="card">
+                <img src="assets/images/distant-read.jpg" alt="Distant Reading">
+                <div class="card-body">
+                    <h3 class="card-title">Distant Reading Project</h3>
+                    <p class="card-text">Dive into advanced analysis of text corpora to uncover hidden patterns and trends.</p>
+                    <a href="assets/textual-ai/distant-read.html">Learn More</a>
+                </div>
+            </div>
+            <!-- Card 2: Generative Short Story -->
+            <div class="card">
+                <img src="assets/images/generative-story.jpg" alt="Generative Short Story">
+                <div class="card-body">
+                    <h3 class="card-title">Generative Short Story</h3>
+                    <p class="card-text">Explore AI-generated narratives that push the boundaries of creative writing.</p>
+                    <a href="assets/textual-ai/generative-story.html">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
